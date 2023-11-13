@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0B8DF4">
+
+    <TextView
+        android:id="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="facebook"
+        android:textColor="#fff"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="385dp"
+        android:layout_below="@+id/fb"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="2dp"
+        android:text="Email:"
+
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/eml"
+        android:layout_width="294dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="-378dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eml"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginRight="20dp"
+        android:padding="2dp"
+        android:text="Password:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="256dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/chk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="30dp"
+        android:checked="true"
+        android:text="Save Login" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/chk"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="46dp"
+        android:text="Login" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/chk"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="80dp"
+        android:text="Sign Up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need and account?\nSignup using your phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+</RelativeLayout>
