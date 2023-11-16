@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">spinnerJava</string>
+    <string-array name="Country">
+        <item>Canada</item>
+        <item>america</item>
+        <item>india</item>
+    </string-array>
+</resources>
