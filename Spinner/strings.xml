@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">spinnerXml</string>
+    <string-array name="version">
+        <item>Annayya</item>
+        <item>Sreejith</item>
+        <item>GPT4</item>
+    </string-array>
+
+</resources>
